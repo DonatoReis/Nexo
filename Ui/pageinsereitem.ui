@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindowIsertBox</class>
+ <widget class="QMainWindow" name="MainWindowIsertBox">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>404</width>
+    <height>140</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>404</width>
+    <height>140</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>404</width>
+    <height>140</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(32, 32, 35);</string>
+  </property>
+  <widget class="QWidget" name="centralwidgetInsertBox">
+   <widget class="QLabel" name="label_26">
+    <property name="geometry">
+     <rect>
+      <x>4</x>
+      <y>1</y>
+      <width>201</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(234, 234, 234);
+font: 10pt &quot;Segoe UI&quot;;
+background-color: none;</string>
+    </property>
+    <property name="text">
+     <string>Insira o item que deseja adicionar</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inserir_item_no_combobox">
+    <property name="geometry">
+     <rect>
+      <x>4</x>
+      <y>31</y>
+      <width>391</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(32, 32, 35);
+color: rgb(255, 255, 255);
+border: none;</string>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>4</x>
+      <y>61</y>
+      <width>391</width>
+      <height>2</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(251, 211, 141);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_inserir_database_prazo">
+    <property name="geometry">
+     <rect>
+      <x>4</x>
+      <y>111</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover{
+	background-color: #f6ad55;
+	border: 5px solid #f6ad55;
+	color: rgb(32, 32, 35);
+	border-radius: 5px;
+}
+
+QPushButton {
+   color: rgb(32, 32, 35);
+   border-radius: 5px;
+   background-color: rgb(251, 211, 141);
+}</string>
+    </property>
+    <property name="text">
+     <string>prazo</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_inserir_database_frete">
+    <property name="geometry">
+     <rect>
+      <x>84</x>
+      <y>111</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover{
+	background-color: #f6ad55;
+	border: 5px solid #f6ad55;
+	color: rgb(32, 32, 35);
+	border-radius: 5px;
+}
+
+QPushButton {
+   color: rgb(32, 32, 35);
+   border-radius: 5px;
+   background-color: rgb(251, 211, 141);
+}</string>
+    </property>
+    <property name="text">
+     <string>frete</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_inserir_database_produto">
+    <property name="geometry">
+     <rect>
+      <x>164</x>
+      <y>111</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover{
+	background-color: #f6ad55;
+	border: 5px solid #f6ad55;
+	color: rgb(32, 32, 35);
+	border-radius: 5px;
+}
+
+QPushButton {
+   color: rgb(32, 32, 35);
+   border-radius: 5px;
+   background-color: rgb(251, 211, 141);
+}</string>
+    </property>
+    <property name="text">
+     <string>produto</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_inserir_database_transporte">
+    <property name="geometry">
+     <rect>
+      <x>244</x>
+      <y>111</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover{
+	background-color: #f6ad55;
+	border: 5px solid #f6ad55;
+	color: rgb(32, 32, 35);
+	border-radius: 5px;
+}
+
+QPushButton {
+   color: rgb(32, 32, 35);
+   border-radius: 5px;
+   background-color: rgb(251, 211, 141);
+}</string>
+    </property>
+    <property name="text">
+     <string>transporte</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_inserir_database_vendedor">
+    <property name="geometry">
+     <rect>
+      <x>324</x>
+      <y>111</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover{
+	background-color: #f6ad55;
+	border: 5px solid #f6ad55;
+	color: rgb(32, 32, 35);
+	border-radius: 5px;
+}
+
+QPushButton {
+   color: rgb(32, 32, 35);
+   border-radius: 5px;
+   background-color: rgb(251, 211, 141);
+}</string>
+    </property>
+    <property name="text">
+     <string>vendedor</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_27">
+    <property name="geometry">
+     <rect>
+      <x>4</x>
+      <y>81</y>
+      <width>281</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(234, 234, 234);
+font: 10pt &quot;Segoe UI&quot;;
+background-color: none;</string>
+    </property>
+    <property name="text">
+     <string>SELECIONE ONDE DESEJA ADICIONAR O ITEM!</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

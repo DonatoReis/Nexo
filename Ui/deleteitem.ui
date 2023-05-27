@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindowDeleteBox</class>
+ <widget class="QMainWindow" name="MainWindowDeleteBox">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>404</width>
+    <height>140</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>404</width>
+    <height>140</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>404</width>
+    <height>140</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(32, 32, 35);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="comboBox_item_delete">
+    <property name="geometry">
+     <rect>
+      <x>4</x>
+      <y>42</y>
+      <width>391</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius: 5px;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_28">
+    <property name="geometry">
+     <rect>
+      <x>4</x>
+      <y>2</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(234, 234, 234);
+font: 10pt &quot;Segoe UI&quot;;
+background-color: none;</string>
+    </property>
+    <property name="text">
+     <string>Selecione o item que deseja excluir</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_excluir_prazo">
+    <property name="geometry">
+     <rect>
+      <x>4</x>
+      <y>112</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>excluir item em prazo</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover{
+	background-color: #f6ad55;
+	border: 5px solid #f6ad55;
+	color: rgb(32, 32, 35);
+	border-radius: 5px;
+}
+
+QPushButton {
+   color: rgb(32, 32, 35);
+   border-radius: 5px;
+   background-color: rgb(251, 211, 141);
+}</string>
+    </property>
+    <property name="text">
+     <string>prazo</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_excluir_frete">
+    <property name="geometry">
+     <rect>
+      <x>84</x>
+      <y>112</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>excluir item em frete</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover{
+	background-color: #f6ad55;
+	border: 5px solid #f6ad55;
+	color: rgb(32, 32, 35);
+	border-radius: 5px;
+}
+
+QPushButton {
+   color: rgb(32, 32, 35);
+   border-radius: 5px;
+   background-color: rgb(251, 211, 141);
+}</string>
+    </property>
+    <property name="text">
+     <string>frete</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_excluir_produto">
+    <property name="geometry">
+     <rect>
+      <x>164</x>
+      <y>112</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>excluir item em produto</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover{
+	background-color: #f6ad55;
+	border: 5px solid #f6ad55;
+	color: rgb(32, 32, 35);
+	border-radius: 5px;
+}
+
+QPushButton {
+   color: rgb(32, 32, 35);
+   border-radius: 5px;
+   background-color: rgb(251, 211, 141);
+}</string>
+    </property>
+    <property name="text">
+     <string>produto</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_excluir_transporte">
+    <property name="geometry">
+     <rect>
+      <x>244</x>
+      <y>112</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>excluir item em transporte</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover{
+	background-color: #f6ad55;
+	border: 5px solid #f6ad55;
+	color: rgb(32, 32, 35);
+	border-radius: 5px;
+}
+
+QPushButton {
+   color: rgb(32, 32, 35);
+   border-radius: 5px;
+   background-color: rgb(251, 211, 141);
+}</string>
+    </property>
+    <property name="text">
+     <string>transporte</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_excluir_vendedor">
+    <property name="geometry">
+     <rect>
+      <x>324</x>
+      <y>112</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>excluir item em vendedor</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover{
+	background-color: #f6ad55;
+	border: 5px solid #f6ad55;
+	color: rgb(32, 32, 35);
+	border-radius: 5px;
+}
+
+QPushButton {
+   color: rgb(32, 32, 35);
+   border-radius: 5px;
+   background-color: rgb(251, 211, 141);
+}</string>
+    </property>
+    <property name="text">
+     <string>vendedor</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_29">
+    <property name="geometry">
+     <rect>
+      <x>4</x>
+      <y>82</y>
+      <width>261</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(234, 234, 234);
+font: 10pt &quot;Segoe UI&quot;;
+background-color: none;</string>
+    </property>
+    <property name="text">
+     <string>SELECIONE ONDE DESEJA EXCLUIR O ITEM!</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
